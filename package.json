@@ -1,0 +1,41 @@
+{
+  "name": "space_traders_api",
+  "version": "2.0.0",
+  "description": "SpaceTraders_is_an_open_universe_game_and_learning_platform_that_offers_a_set_of_HTTP_endpoints_to_control_a_fleet_of_ships_and_explore_a_multiplayer_universe_The_API_is_documented_using__OpenAPI_httpsgithub_comSpaceTradersAPIapi_docs__You_can_send_your_first_request_right_here_in_your_browser_to_check_the_status_of_the_game_server_json_http__method_GET__url_httpsapi_spacetraders_iov2Unlike_a_traditional_game_SpaceTraders_does_not_have_a_first_party_client_or_app_to_play_the_game__Instead_you_can_use_the_API_to_build_your_own_client_write_a_script_to_automate_your_ships_or_try_an_app_built_by_the_community_We_have_a__Discord_channel_httpsdiscord_cominvitejh6zurdWk5_where_you_can_share_your_projects_ask_questions_and_get_help_from_other_players_",
+  "license": "No Permission",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "superagent": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^8.0.1",
+    "sinon": "^7.2.0"
+  }
+}
